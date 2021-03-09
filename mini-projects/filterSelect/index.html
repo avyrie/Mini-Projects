@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" href="../../images/filterF.ico" />
+    <!-- CSS  -->
+    <link rel='stylesheet' href='./styles.css'>
+    <!-- JS  -->
+    <script defer src='./app.js'></script>
+    <title>Document</title>
+</head>
+    <body>
+
+        <h1>Catagory Filter</h1>
+
+        <div id="buttons">
+
+            <button class="btn" onclick="filterObjects('all')">Show All</button>
+            <button class="btn" onclick="filterObjects('fruit')">Fruits</button>
+            <button class="btn" onclick="filterObjects('colors')">Colors</button>
+            <button class="btn" onclick="filterObjects('cars')">Cars</button>
+            <button class="btn" onclick="filterObjects('animals')">Animals</button>
+
+        </div>
+
+        <div class="objects">
+
+            <div class="box cars">Toyota</div>
+            <div class="box cars">Honda</div>
+            <div class="box fruit colors">Orange</div>
+            <div class="box animals">Snake</div>
+            <div class="box color">Green</div>
+            <div class="box fruit">Banana</div>
+            <div class="box color">Red</div>
+            <div class="box fruit">Pear</div>
+            <div class="box fruit">Apple</div>
+            <div class="box animals">Bear</div>
+            <div class="box animals">Monkey</div>
+            <div class="box cars">Volvo</div>
+
+        </div>
+        
+    </body>
+    <!-- Credit: Thank you to Benjamin Flanders (https://medium.com/@benjamin.flanders96/how-to-create-a-simple-javascript-filter-67e50b32ccb5) for the tutorial and Chouaib Belagoun for the colour palette -->
+</html>
