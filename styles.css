@@ -35,6 +35,9 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: rgb(100, 146, 196);
 }
 .card:hover {
     border: 3px solid rgb(199, 175, 76);
@@ -50,4 +53,12 @@ a img {
 .card-cover {
     width: 90%;
     padding: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    margin: 20px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: rgb(64, 190, 182);
 }
